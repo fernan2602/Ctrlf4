@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Gestor de tareas</title>
+    </head>
+    <body>
+        <h1>
+            Gestor Tareas
+        </h1>
+        <section>
+            <table>
+                <thead>
+                    <th id="t_id"></th>
+                    <th id="t_name"></th>
+                    <th id="t_todo"></th>
+                    <th id="t_prog"></th>
+                    <th id="t_done"></th>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td class="name">Lavar la ropa</td>
+                        <td class="ico">X</td>
+                        <td class="ico"></td>
+                        <td class="ico"></td>
+
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td class="name">Ir al veterianrio</td>
+                        <td class="ico"></td>
+                        <td class="ico">X</td>
+                        <td class="ico"></td>
+
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Escribir correo importante</td>
+                        <td class="ico"></td>
+                        <td class="ico"></td>
+                        <td class="ico">X</td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <form>
+            <div id="name">
+                <label for="text_name">Tarea</label>
+                <input type="text" id="text_name" name="text_name">    
+            </div>
+            <label>Estado</label>
+            <div id="state">
+                <input type="checkbox" id="text_todo" name="text_todo" value="todo">  
+                <label for="text_name">Pendiente</label>
+
+                <input type="checkbox" id="text_todo" name="text_todo" value="progress">  
+                <label for="text_tod">En progreso</label>
+
+                <input type="checkbox" id="text_todo" name="text_todo" value="done">  
+                <label for="text_tod">Hecha</label>
+            </div>
+            <div id="state">
+                <label for="text_tod">En progreso</label>
+                <textarea id="text_detail" name="text_detail"></textarea>
+            </div>
+            <div class="button">
+                <button type="summit">Guardar cambios</button>
+            </div>
+        </form>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
